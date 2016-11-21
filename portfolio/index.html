@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Portfolio | SA</title>
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<div id="bl-main" class="bl-main">
+				<section id="bl-work-section" class="bl-expand">
+					<div class="bl-box">
+						<h2 class="bl-icon bl-icon-works">Works</h2>
+					</div>
+					<div class="bl-content">
+						<h2>Portfolio</h2>
+						<p>Some of the things I've released during my career.</p>
+						<ul id="bl-work-items">
+							<li data-panel="panel-1"><a href="#"><img src="images/1.jpg" /></a></li>
+							<li data-panel="panel-2"><a href="#"><img src="images/2.jpg" /></a></li>
+							<li data-panel="panel-3"><a href="#"><img src="images/3.jpg" /></a></li>
+							<li data-panel="panel-4"><a href="#"><img src="images/4.jpg" /></a></li>
+						</ul>
+					</div>
+				</section>
+				<!-- Panel items for the works -->
+				<div class="bl-panel-items" id="bl-panel-work-items">
+					<div data-panel="panel-1" class="okotta">
+						<div>
+							<div class="white-background">
+								<img src="images/okapp1.jpg" />
+								<img src="images/okapp2.jpg" />
+								<img src="images/okapp3.jpg" />
+								<img src="images/okapp4.jpg" />
+							</div>
+							<div class="description">
+								<h3>Okotta! native apps</h3>
+								<p>Okotta's product was a digital insurance wallet app for iOS and Android. I joined the company midway through the project, and eventually took over product management entirely, several months before the initial release. The MVP was heavily compromised, as the company had to pivot late into the development phase. Shortly after the release, I initiated a complete UX rework of the app (seen in the mockups), to optimise it for the pivoted concept, and make the design significantly more sexy than in the initial release. The redesigned app never made it into the appstores, as Okotta's technology and customers were acquired by a large player in the insurance industry, several months after going live.</p>
+								<p>The original Okotta app can still be found on the appstore <a href="https://itunes.apple.com/us/app/okotta!/id1094701372?mt=8" target="_blank">here</a>.  </p>
+							</div>
+						</div>
+					</div>
+					<div data-panel="panel-2" class="okottalp">
+						<div>
+							<div class="white-background">
+								<img src="images/okottalp1.jpg" />
+								<img src="images/okottalp3.jpg" />
+								<img src="images/okottalp2.jpg" />
+							</div>
+							<div class="description">
+								<h3>Okotta! Website </h3>
+								<p>The Okotta web site was the main channel for organic user acquisition. I was the product manager in its entire lifecycle. The value proposition was simple - buy an insurance policy via Okotta, and get a companion app, with insurance documents, live-chat support and automation features, such as claim management. The MVP was very basic and completely manual in the backend. Despite that, due to great insurance being sold at a competitive price, the ECR was fantastic. The website did so well, that the only feature iteration we did in its 6 month lifespan was to better meet legal requirements. </p>
+								<p>The website was taken offline once the company got acquired. The okotta.com is now showing a part of a pre-release web site as a placeholder.</p> 
+							</div>
+						</div>
+					</div>
+					<div data-panel="panel-3" class="dawanda">
+						<div>
+							<div class="white-background">
+								<img src="images/dw1.jpg" />
+								<img src="images/dw2.jpg" />
+							</div>
+							<div class="description">
+								<h3>Discovery improvements on DaWanda marketplace</h3>
+								<p>At DaWanda I was took charge of a strategic initiative to improve product discovery on the marketplace. In my 6 months at DaWanda, I released multiple minor iterative improvements to the product search, such as auto-complete suggestions. My major release was the product quickview, which allows users to see product details (and recommended related products) without leaving the catalogue. True story - its initial version actually had a marginal negative impact on direct traffic converstion, and we had to iterate quickly to improve the UX. Apparently, users were too much used to the way things had worked before quickview, and were getting frustrated when the behaviour changed. </p><p>Quickview has been iterated upon, but follows the same concept I introduced before my departure from the company. See it for yourself on <a href="http://www.dawanda.com" target="_blank">DaWanda</a></p> 
+							</div>
+						</div>
+					</div>
+					<div data-panel="panel-4" class="zanox">
+						<div>
+							<div class="white-background">
+								<img src="images/zx4.jpg" />
+								<img src="images/zx2.jpg" />
+								<img src="images/zx3.jpg" />
+							</div>
+							<div class="description">
+								<h3>zanox developer portal</h3>
+								<p>My first job as a PM was at zanox, where I was responsible for all platform APIs and partner integrations. Soon after starting, it became apparent that while the APIs were really good, nobody knew how to use them properly - documentation was outdated or non-existent, and account managers could not answer technical questions. I launched the zanox developer portal within several months to mitigate this problem. The UX concept and layout are blatantly stolen from twitter, with zanox logo and colours slapped on top. SSO allows zanox users to log in, comment, and post in the forum. It all runs on one legacy server somewhere at zanox, and ops dread to talk about it. While at the time it seemed to me that I was completely failing to deliver a quality product, in hindsight, I think this was the best and most useful MVP I have ever launched. I released it very fast, and it just got the job done - we could reduce a full FTE of support effort as a result.</p><p>As it usually goes in big companies, the portal hasn't been updated a lot since my departure. Indeed, the last developer blog post is still mine from 2013. Good times! :) Check it out <a href="https://developer.zanox.com">here</a></p>
+							</div>
+						</div>
+					</div>
+					<nav>
+						<span class="bl-next-work">&gt; Next Project</span>
+						<span class="bl-icon bl-icon-close"></span>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/boxlayout.js"></script>
+		<script>
+			$(function() {
+				Boxlayout.init();
+			});
+		</script>
+	</body>
+</html>
